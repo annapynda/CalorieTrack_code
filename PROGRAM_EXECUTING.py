@@ -1,6 +1,6 @@
 from data_from_user import get_physical_activity, get_gender, get_age, get_height, get_weight, get_name
 from user import User
-from workwithjson import product_search_count, data_for_user
+from workwithjson import product_search_count
 
 print("\033[1;32;1m WELCOME TO CALORIE TRACK PROGRAM!")
 
@@ -72,12 +72,18 @@ while True:
 
 
 
+
     elif command == 'norma':
         print(user)
 
     elif command == 'stop':
-        # results = data_for_user('file_user.txt')
-        # print(results)
-        print(lst_2)
+        for i in lst_2:
+            print('**Product\tnutrition information(carbohydrates, fat, protein, calories)**')
+            print(i)
         executing = False
+
+
+
+
+
 

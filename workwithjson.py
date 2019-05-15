@@ -188,8 +188,12 @@ def product_search_count():
 
     :return: the counted nutriton of chosen product
     """
+
     product = str(input("Enter product: "))
+    if len(product) < 5:
+        product = str(input("Enter product: "))
     api_call(product)
+
     if check_existing('d.json') != False:
         print("\033[1;35;1mThe products found: ")
         print('\n')
@@ -197,26 +201,26 @@ def product_search_count():
         for i in range(len(a)):
             print(a[i])
         print('\n')
-        choose_which = str(input("Enter which product to add: "))
+        choose_which = str(input("Enter which product to add or enter NO if nothing mathces: "))
         choose_which = choose_which.strip()
-        nutrition = search_by_name(choose_which)
-        inf_product = nutrition_product(nutrition)
-        grams = get_grams()
-        while not grams:
+        if choose_which != 'NO':
+            nutrition = search_by_name(choose_which)
+            inf_product = nutrition_product(nutrition)
             grams = get_grams()
-        nutrition_pr = count_nutrition(grams, inf_product[0])
-        with open('file_user.txt', 'a') as new_f:
-            new_f.write(str(choose_which) + ' ' + str(nutrition_pr))
+            while not grams:
+                grams = get_grams()
+            nutrition_pr = count_nutrition(grams, inf_product[0])
+            with open('file_user.txt', 'a') as new_f:
+                new_f.write(str(choose_which) + ' ' + str(nutrition_pr) + '\n')
     else:
         return "nothing found"
     return nutrition_pr
 
 
 
-def data_for_user(file):
-    with open(file, 'r') as new_file:
-        data = new_file.read()
-        data = data.strip('\n')
-    print("\t\t carbohydrates, protein, fat, calories")
-    return data
+# def data_for_user(file):
+#     with open(file, 'r') as new_file:
+#         data = new_file.read()
+#         data = data.strip('\n')
+#     return data
 

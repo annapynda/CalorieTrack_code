@@ -58,6 +58,3 @@ class User:
         return '\033[1;34;1m {} you should consume {} calories, {} ml of water'.format(self.name, self.get_Calories(), self.get_Water())
 
 
-u1 = User('Marie', 'woman', 56, 177, 26, 'medium')
-a = u1.get_Water()
-print(a)
