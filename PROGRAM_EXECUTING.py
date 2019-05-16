@@ -47,6 +47,7 @@ COUNTER_protein = 0
 
 executing = True
 while True:
+    print('to add food enter add, to get your norma enter norma, to finish enter stop')
     command = input(">>> ")
     command.strip().lower()
     if command == 'add':
