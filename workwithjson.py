@@ -218,9 +218,3 @@ def product_search_count():
 
 
 
-# def data_for_user(file):
-#     with open(file, 'r') as new_file:
-#         data = new_file.read()
-#         data = data.strip('\n')
-#     return data
-
