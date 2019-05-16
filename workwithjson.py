@@ -128,8 +128,6 @@ def count_nutrition(grams, product_dict):
     """
     D = DynamicArray()
     lst = []
-    # D.add(choose_which)
-    # print(product_dict)
     grams_consumed = grams/100
     # print(grams_consumed)
     carbs = 0
