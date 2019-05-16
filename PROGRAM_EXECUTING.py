@@ -46,7 +46,7 @@ COUNTER_fat = 0
 COUNTER_protein = 0
 
 executing = True
-while True:
+while executing:
     print('to add food enter add, to get your norma enter norma, to finish enter stop')
     command = input(">>> ")
     command.strip().lower()
@@ -78,7 +78,7 @@ while True:
         print(user)
 
     elif command == 'stop':
-        for i in lst_2:
+        for i in lst_2[:-1]:
             print('**Product\tnutrition information(carbohydrates, fat, protein, calories)**')
             print(i)
         executing = False
