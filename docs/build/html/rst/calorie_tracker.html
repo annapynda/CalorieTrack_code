@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>calorie_tracker package &#8212; calorie_track 1.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="calorie-tracker-package">
+<h1>calorie_tracker package<a class="headerlink" href="#calorie-tracker-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-calorie_tracker.ADT">
+<span id="calorie-tracker-adt-module"></span><h2>calorie_tracker.ADT module<a class="headerlink" href="#module-calorie_tracker.ADT" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="calorie_tracker.ADT.DynamicArray">
+<em class="property">class </em><code class="descclassname">calorie_tracker.ADT.</code><code class="descname">DynamicArray</code><a class="headerlink" href="#calorie_tracker.ADT.DynamicArray" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>class represrnting Dynamic Array</p>
+<dl class="method">
+<dt id="calorie_tracker.ADT.DynamicArray.add">
+<code class="descname">add</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.ADT.DynamicArray.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add object to end of the array.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="calorie_tracker.ADT.DynamicArray.delete_item">
+<code class="descname">delete_item</code><span class="sig-paren">(</span><em>item</em><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.ADT.DynamicArray.delete_item" title="Permalink to this definition">¶</a></dt>
+<dd><p>Delete first occurrence of item.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-calorie_tracker.PROGRAM_EXECUTING">
+<span id="calorie-tracker-program-executing-module"></span><h2>calorie_tracker.PROGRAM_EXECUTING module<a class="headerlink" href="#module-calorie_tracker.PROGRAM_EXECUTING" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-calorie_tracker.data_from_user">
+<span id="calorie-tracker-data-from-user-module"></span><h2>calorie_tracker.data_from_user module<a class="headerlink" href="#module-calorie_tracker.data_from_user" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="calorie_tracker.data_from_user.get_age">
+<code class="descclassname">calorie_tracker.data_from_user.</code><code class="descname">get_age</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.data_from_user.get_age" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>False if age is not correct, else: age</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calorie_tracker.data_from_user.get_gender">
+<code class="descclassname">calorie_tracker.data_from_user.</code><code class="descname">get_gender</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.data_from_user.get_gender" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>False if gender is not correct, else: gender</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calorie_tracker.data_from_user.get_grams">
+<code class="descclassname">calorie_tracker.data_from_user.</code><code class="descname">get_grams</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.data_from_user.get_grams" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>False if grams is not correct, else: grams</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calorie_tracker.data_from_user.get_height">
+<code class="descclassname">calorie_tracker.data_from_user.</code><code class="descname">get_height</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.data_from_user.get_height" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>False if height is not correct, else: height</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calorie_tracker.data_from_user.get_name">
+<code class="descclassname">calorie_tracker.data_from_user.</code><code class="descname">get_name</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.data_from_user.get_name" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>name</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calorie_tracker.data_from_user.get_physical_activity">
+<code class="descclassname">calorie_tracker.data_from_user.</code><code class="descname">get_physical_activity</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.data_from_user.get_physical_activity" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>False if activity level is not correct, else: activity level</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calorie_tracker.data_from_user.get_weight">
+<code class="descclassname">calorie_tracker.data_from_user.</code><code class="descname">get_weight</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.data_from_user.get_weight" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>False if weight is not correct, else: weight</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-calorie_tracker.user">
+<span id="calorie-tracker-user-module"></span><h2>calorie_tracker.user module<a class="headerlink" href="#module-calorie_tracker.user" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="calorie_tracker.user.User">
+<em class="property">class </em><code class="descclassname">calorie_tracker.user.</code><code class="descname">User</code><span class="sig-paren">(</span><em>name</em>, <em>gender</em>, <em>weight</em>, <em>height</em>, <em>age</em>, <em>physical</em><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.user.User" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>class representing user</p>
+<dl class="method">
+<dt id="calorie_tracker.user.User.get_Calories">
+<code class="descname">get_Calories</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.user.User.get_Calories" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>the calorie norma of user</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="calorie_tracker.user.User.get_Water">
+<code class="descname">get_Water</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.user.User.get_Water" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>norma of water of user</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-calorie_tracker.workwithjson">
+<span id="calorie-tracker-workwithjson-module"></span><h2>calorie_tracker.workwithjson module<a class="headerlink" href="#module-calorie_tracker.workwithjson" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="calorie_tracker.workwithjson.api_call">
+<code class="descclassname">calorie_tracker.workwithjson.</code><code class="descname">api_call</code><span class="sig-paren">(</span><em>product</em><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.workwithjson.api_call" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calls Api and loads data to the json file
+:param product: name of product that is searched</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="calorie_tracker.workwithjson.check_existing">
+<code class="descclassname">calorie_tracker.workwithjson.</code><code class="descname">check_existing</code><span class="sig-paren">(</span><em>file</em><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.workwithjson.check_existing" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>file</strong> – file with json dict</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>if product which is searched exsist: True, else: False</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calorie_tracker.workwithjson.check_if_one_result">
+<code class="descclassname">calorie_tracker.workwithjson.</code><code class="descname">check_if_one_result</code><span class="sig-paren">(</span><em>file</em><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.workwithjson.check_if_one_result" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> – the json file</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>True if only one product was founded, else: False</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calorie_tracker.workwithjson.count_nutrition">
+<code class="descclassname">calorie_tracker.workwithjson.</code><code class="descname">count_nutrition</code><span class="sig-paren">(</span><em>grams</em>, <em>product_dict</em><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.workwithjson.count_nutrition" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>grams</strong> – grams consumed</p></li>
+<li><p><strong>product_dict</strong> – the json dict of the product</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>product name, number of: carbohydrates, fat, protein, calories</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calorie_tracker.workwithjson.get_product_names">
+<code class="descclassname">calorie_tracker.workwithjson.</code><code class="descname">get_product_names</code><span class="sig-paren">(</span><em>json_f</em><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.workwithjson.get_product_names" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>json_f</strong> – the file with json dict</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>names of products found</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calorie_tracker.workwithjson.nutrition_product">
+<code class="descclassname">calorie_tracker.workwithjson.</code><code class="descname">nutrition_product</code><span class="sig-paren">(</span><em>lst_nutr</em><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.workwithjson.nutrition_product" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>lst_nutr</strong> – the nutrition json dict</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>the information of carbohydrates, calories, fat, proteins</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calorie_tracker.workwithjson.product_search_count">
+<code class="descclassname">calorie_tracker.workwithjson.</code><code class="descname">product_search_count</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.workwithjson.product_search_count" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>the counted nutriton of chosen product</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calorie_tracker.workwithjson.search_by_name">
+<code class="descclassname">calorie_tracker.workwithjson.</code><code class="descname">search_by_name</code><span class="sig-paren">(</span><em>name_food</em><span class="sig-paren">)</span><a class="headerlink" href="#calorie_tracker.workwithjson.search_by_name" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name_food</strong> – the name of chosen product</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>the nutrition information of the product</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-calorie_tracker">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-calorie_tracker" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">calorie_track</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, annapynda.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/rst/calorie_tracker.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
