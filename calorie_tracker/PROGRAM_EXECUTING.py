@@ -1,6 +1,6 @@
-from data_from_user import get_physical_activity, get_gender, get_age, get_height, get_weight, get_name
-from user import User
-from workwithjson import product_search_count
+from calorie_tracker.data_from_user import get_physical_activity, get_gender, get_age, get_height, get_weight, get_name
+from calorie_tracker.user import User
+from calorie_tracker.workwithjson import product_search_count
 
 print("\033[1;32;1m WELCOME TO CALORIE TRACK PROGRAM!")
 

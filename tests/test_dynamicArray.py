@@ -1,5 +1,5 @@
 from unittest import TestCase
-from ADT import DynamicArray
+from calorie_tracker.ADT import DynamicArray
 
 class TestDynamicArray(TestCase):
     """

@@ -1,7 +1,7 @@
 import json
 import http.client
-from ADT import DynamicArray
-from data_from_user import get_grams
+from calorie_tracker.ADT import DynamicArray
+from calorie_tracker.data_from_user import get_grams
 
 def api_call(product):
     """

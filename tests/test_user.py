@@ -1,5 +1,5 @@
 from unittest import TestCase
-from user import User
+from calorie_tracker.user import User
 
 class TestUser(TestCase):
     """
